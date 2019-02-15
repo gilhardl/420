@@ -121,6 +121,22 @@
     "@angular-devkit/core" "7.3.1"
     rxjs "6.3.3"
 
+"@angular/animations@^7.2.4":
+  version "7.2.4"
+  resolved "https://registry.npmjs.org/@angular/animations/-/animations-7.2.4.tgz#4d0a0b9f14d6bfc38ca773613b61729d020435e6"
+  integrity sha512-Wx6cqU6koFOASlyl4aCygtbtROoehU6OKwV2EZTkfzHx6Eu/QyTiSa5kyoApVM5LMmCNeb8SxJMSAnKXztNl0A==
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/cdk@^7.3.2":
+  version "7.3.2"
+  resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-7.3.2.tgz#33f525051d71e2525d29b2aa798c817334973a7b"
+  integrity sha512-jnthvY1Kt+DpJTrkgyKTiVuYgBdp4iG7QDeZJPBQm0e8mL2K0Pi9AqFbo01E4CGPqZpvtEggvqM0OJpR8J+amw==
+  dependencies:
+    tslib "^1.7.1"
+  optionalDependencies:
+    parse5 "^5.0.0"
+
 "@angular/cli@~7.2.3":
   version "7.2.4"
   resolved "https://registry.npmjs.org/@angular/cli/-/cli-7.2.4.tgz#399cef8245fd583a72a2444aed0631a7ee7f493b"
@@ -192,6 +208,13 @@
   version "7.2.4"
   resolved "https://registry.npmjs.org/@angular/language-service/-/language-service-7.2.4.tgz#db72460040b070410cbff678410c142f4d682af8"
   integrity sha512-A9Rud/27hHMSUUjpgn57nVeLsoYgdvFwJhtlZA/oCuSpmlD+LqqBsEpPhivwn++u44+DSrFXsic29jlFnsBotw==
+
+"@angular/material@^7.3.2":
+  version "7.3.2"
+  resolved "https://registry.npmjs.org/@angular/material/-/material-7.3.2.tgz#9d1647689cf4a0892f099e021f97f5e8ab1332fa"
+  integrity sha512-x3it941KE8zuzDH1VLP4yfgmC3hwrqa1a2GHiekztF2KrbWPzEEGNvlyYOUV7nwiuwFw5twON73rW0HUKndwEA==
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/platform-browser-dynamic@^7.2.2":
   version "7.2.4"
@@ -346,6 +369,15 @@
   integrity sha512-2Zgrs8C+SiGUTPKIAjcVomrPd7cT1A09kSt6CiGDoXtKYRaaF1bVr5NvrjyPa2rfplCtKH5TGhgiAvCvzxLLZQ==
   dependencies:
     ionicons "4.5.5"
+
+"@ionic/storage@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/@ionic/storage/-/storage-2.2.0.tgz#ac181991d3bfc8352a5400efb5e9faa5e76b5d4b"
+  integrity sha512-2pszrzmI+fAar2Rx0WmJDVpc15D1k5tvLkB49NLYWJ2pOMaO/3/vp7mg/mEbg3rdsPE9FRbYI6vdKjQ2pP1EWA==
+  dependencies:
+    localforage "1.7.1"
+    localforage-cordovasqlitedriver "1.7.0"
+    tslib "^1.7.1"
 
 "@ngtools/webpack@7.2.4":
   version "7.2.4"
@@ -3163,6 +3195,11 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.npmjs.org/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
+
 handle-thing@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/handle-thing/-/handle-thing-2.0.0.tgz#0e039695ff50c93fc288557d696f3c1dc6776754"
@@ -4255,7 +4292,7 @@ license-webpack-plugin@2.0.4:
     "@types/webpack-sources" "^0.1.5"
     webpack-sources "^1.2.0"
 
-lie@~3.1.0:
+lie@3.1.1, lie@~3.1.0:
   version "3.1.1"
   resolved "https://registry.npmjs.org/lie/-/lie-3.1.1.tgz#9a436b2cc7746ca59de7a41fa469b3efb76bd87e"
   integrity sha1-mkNrLMd0bKWd56QfpGmz77dr2H4=
@@ -4305,6 +4342,27 @@ loader-utils@^1.0.1, loader-utils@^1.0.2, loader-utils@^1.1.0:
     big.js "^5.2.2"
     emojis-list "^2.0.0"
     json5 "^1.0.1"
+
+localforage-cordovasqlitedriver@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.npmjs.org/localforage-cordovasqlitedriver/-/localforage-cordovasqlitedriver-1.7.0.tgz#8b93957759ee688d3a58d5ba7c0477f6ccb53838"
+  integrity sha1-i5OVd1nuaI06WNW6fAR39sy1ODg=
+  dependencies:
+    localforage ">=1.5.0"
+
+localforage@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.npmjs.org/localforage/-/localforage-1.7.1.tgz#e4927e042302b864db30f3211f13b5c6f0de965d"
+  integrity sha1-5JJ+BCMCuGTbMPMhHxO1xvDell0=
+  dependencies:
+    lie "3.1.1"
+
+localforage@>=1.5.0:
+  version "1.7.3"
+  resolved "https://registry.npmjs.org/localforage/-/localforage-1.7.3.tgz#0082b3ca9734679e1bd534995bdd3b24cf10f204"
+  integrity sha512-1TulyYfc4udS7ECSBT2vwJksWbkwwTX8BzeUIiq8Y07Riy7bDAAnxDaPU/tWyOVmQAcWJIEIFP9lPfBGqVoPgQ==
+  dependencies:
+    lie "3.1.1"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -5341,6 +5399,11 @@ parse5@4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/parse5/-/parse5-4.0.0.tgz#6d78656e3da8d78b4ec0b906f7c08ef1dfe3f608"
   integrity sha512-VrZ7eOd3T1Fk4XWNXMgiGBK/z0MG48BWG2uQNU4I72fkQuKUTZpl+u9k+CxEG0twMVzSmXEEz12z5Fnw1jIQFA==
+
+parse5@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.npmjs.org/parse5/-/parse5-5.1.0.tgz#c59341c9723f414c452975564c7c00a68d58acd2"
+  integrity sha512-fxNG2sQjHvlVAYmzBZS9YlDp6PTSSDwa98vkD4QgVDDCAo84z5X1t5XyJQ62ImdLXx5NdIIfihey6xpum9/gRQ==
 
 parseqs@0.0.5:
   version "0.0.5"
@@ -7122,7 +7185,7 @@ ts-node@~8.0.0:
     source-map-support "^0.5.6"
     yn "^3.0.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
+tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.9.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
