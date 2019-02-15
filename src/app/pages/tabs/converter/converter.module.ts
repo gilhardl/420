@@ -18,4 +18,4 @@ import { ConverterPage } from './converter.page';
     ConverterPage
   ]
 })
-export class Tab2PageModule {}
+export class ConverterPageModule {}
